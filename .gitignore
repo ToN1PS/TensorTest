@@ -1,0 +1,74 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.whl
+.env
+env/
+venv/
+
+# IDE specific files
+.idea/
+*.iml
+*.vscode/
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+
+# Test data
+test_data/
+
+# Coverage data
+.coverage
+coverage/
+allure-results
+console_command.txt
+
+# Temporary files
+*.tmp
+*.swp
+*~
+*.bak
+*.orig
+*.rej
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Virtualenv
+# venv/
+# env/
+
+# Log files
+*.log
+
+# Database files
+*.sqlite
+*.db
+
+# Configuration files (Sensitive)
+*.ini
+*.cfg
+*.config
+
+# Secret keys
+secret_key.txt
+
+# MyPy Cache
+.mypy_cache
+
+# PyTest Cache
+.pytest_cache/
